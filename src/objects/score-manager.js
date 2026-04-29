@@ -10,10 +10,10 @@ export class ScoreManager {
 
     static preload(scene) {
         for (let i = 0; i < 10; i++) {
-            scene.load.image(`digit${i}`, `src/assets/images/numbers/${i}.png`)
+            scene.load.image(`digit${i}`, `assets/images/numbers/${i}.png`)
         }
 
-        scene.load.image('high', 'src/assets/images/letters/hi.png')
+        scene.load.image('high', 'assets/images/letters/hi.png')
     }
 
     setHigh(score) {

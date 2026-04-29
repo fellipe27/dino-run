@@ -17,7 +17,7 @@ export class Cactus extends Phaser.Physics.Arcade.Sprite {
 
     static preload(scene) {
         for (let i = 0; i < 6; i++) {
-            scene.load.image(`cactus${i}`, `src/assets/images/cactus/${i}.png`)
+            scene.load.image(`cactus${i}`, `assets/images/cactus/${i}.png`)
         }
     }
 

@@ -21,9 +21,9 @@ export class GameScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.audio('death', 'src/assets/sounds/death.wav')
-        this.load.audio('point', 'src/assets/sounds/point.wav')
-        this.load.audio('jump', 'src/assets/sounds/jump.wav')
+        this.load.audio('death', 'assets/sounds/death.wav')
+        this.load.audio('point', 'assets/sounds/point.wav')
+        this.load.audio('jump', 'assets/sounds/jump.wav')
 
         Ground.preload(this)
         Dino.preload(this)

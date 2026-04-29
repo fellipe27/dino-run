@@ -22,8 +22,8 @@ export class Ptero extends Phaser.Physics.Arcade.Sprite {
     }
 
     static preload(scene) {
-        scene.load.image('ptero0', 'src/assets/images/ptero/0.png')
-        scene.load.image('ptero1', 'src/assets/images/ptero/1.png')
+        scene.load.image('ptero0', 'assets/images/ptero/0.png')
+        scene.load.image('ptero1', 'assets/images/ptero/1.png')
     }
 
     update() {

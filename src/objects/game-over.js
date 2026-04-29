@@ -7,11 +7,11 @@ export class GameOver {
     }
 
     static preload(scene) {
-        scene.load.image('restart', 'src/assets/images/restart-button.png')
+        scene.load.image('restart', 'assets/images/restart-button.png')
 
         this.letters = 'gameovr'
         this.letters.split('').forEach(letter => {
-            scene.load.image(letter, `src/assets/images/letters/${letter}.png`)
+            scene.load.image(letter, `assets/images/letters/${letter}.png`)
         })
     }
 

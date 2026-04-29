@@ -16,7 +16,7 @@ export class Ground extends Phaser.GameObjects.Container {
     }
 
     static preload(scene) {
-        scene.load.image('ground', 'src/assets/images/ground.png')
+        scene.load.image('ground', 'assets/images/ground.png')
     }
 
     update() {

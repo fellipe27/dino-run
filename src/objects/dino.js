@@ -38,13 +38,13 @@ export class Dino extends Phaser.Physics.Arcade.Sprite {
     }
 
     static preload(scene) {
-        scene.load.image('default', 'src/assets/images/dino/default.png')
-        scene.load.image('dead', 'src/assets/images/dino/dead.png')
-        scene.load.image('downDead', 'src/assets/images/dino/down-dead.png')
-        scene.load.image('running0', 'src/assets/images/dino/running/0.png')
-        scene.load.image('running1', 'src/assets/images/dino/running/1.png')
-        scene.load.image('down0', 'src/assets/images/dino/running/down/0.png')
-        scene.load.image('down1', 'src/assets/images/dino/running/down/1.png')
+        scene.load.image('default', 'assets/images/dino/default.png')
+        scene.load.image('dead', 'assets/images/dino/dead.png')
+        scene.load.image('downDead', 'assets/images/dino/down-dead.png')
+        scene.load.image('running0', 'assets/images/dino/running/0.png')
+        scene.load.image('running1', 'assets/images/dino/running/1.png')
+        scene.load.image('down0', 'assets/images/dino/running/down/0.png')
+        scene.load.image('down1', 'assets/images/dino/running/down/1.png')
     }
 
     reborn(x, y) {

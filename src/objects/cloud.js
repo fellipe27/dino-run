@@ -13,7 +13,7 @@ export class Cloud extends Phaser.GameObjects.Container {
     }
 
     static preload(scene) {
-        scene.load.image('cloud', 'src/assets/images/cloud.png')
+        scene.load.image('cloud', 'assets/images/cloud.png')
     }
 
     setY() {
