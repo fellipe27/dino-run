@@ -22,6 +22,21 @@ https://fellipe27.github.io/dino-run/
 - Phaser.js
 - Vite
 
+## 🗂️ Project structure
+```bash
+dino-run/
+    - public/           # Static public files
+    - src/
+        - assets/       # Images, sounds and game resources
+            - images/
+            - sounds/
+        - objects/      # Core game objects
+        - scenes/       # Game scenes
+        - main.js       # Game entry point
+        - style.css     # Global styles
+    - docs/             # Scrrenshots, GIFs and README media
+```
+
 ## ⚙️ Requirements
 - Node.js
 - npm
